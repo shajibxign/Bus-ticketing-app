@@ -200,7 +200,7 @@
     <header>
         <nav>
             <div>
-                    <a href="#" class="nav-item nav-logo">SBTBS</a>
+                    <a href="#" class="nav-item nav-logo">Hi-BUS</a>
                     <!-- <a href="#" class="nav-item">Gallery</a> -->
             </div>
                 
@@ -210,8 +210,8 @@
                 <li><a href="#contact" class="nav-item">Contact</a></li>
             </ul>
             <div>
-                <a href="#" class="login nav-item" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fas fa-sign-in-alt" style="margin-right: 0.4rem;"></i>Login</a>
                 <a href="#pnr-enquiry" class="pnr nav-item">PNR Enquiry</a>
+                <a href="#" class="login nav-item" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fas fa-sign-in-alt" style="margin-right: 0.4rem;"></i>Login</a>
             </div>
         </nav>
     </header>
@@ -227,9 +227,9 @@
 
     <section id="home">
         <div id="route-search-form">
-            <h1>Simple Bus Ticket Booking System</h1>
+            <h1>Bus Ticket Booking System</h1>
 
-            <p class="text-center">Welcome to Simple Bus Ticket Booking System. Login now to manage bus tickets and much more. OR, simply scroll down to check the Ticket status using Passenger Name Record (PNR number)</p>
+            <p class="text-center">Welcome to Shajib's Bus Ticket Booking System. Login now to manage bus tickets and much more. OR, simply scroll down to check the Ticket status using Passenger Name Record (PNR number)</p>
 
             <center>
                 <button class="btn btn-danger " data-bs-toggle="modal" data-bs-target="#loginModal">Administrator Login</button>
@@ -290,9 +290,7 @@
                 <h1>About Us</h1>
                 <h4>Wanna know were it all started?</h4>
                 <p>
-                    Lorem ipsum dolor sit amet consecteturadipisicing elit. Perferendis soluta voluptas eaque, numquam veritatis aperiam expedita deleniti, nesciunt cum alias velit. Cupiditate commodi
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus cum nisi ea optio unde aliquam quia reprehenderit atque eum tenetur! 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed placeat debitis corporis voluptates modi quibusdam quidem voluptatibus illum, maiores sequi.
+                    This is a Database Management Project Done by MD SHAHREAR AHMED SHAJIB. This was done for the university DBMS project. In this project you can add Bus as an admin. You can add bus details including bus id, bus number, you can select seats ans make a reservision. So you can call it a bus ticketing reservision system. This project is made with PHP, SQL, HTML, CSS BOOTSTRAP etc.
                 </p>
             </div>
         </section>
@@ -312,13 +310,16 @@
                         <label for="message">Message</label>
                         <textarea name="message" id="message" cols="30" rows="10"></textarea>
                     </div>
-                    <div></div>
+                    <div class="text-center">
+                    <button type="button" class="btn btn-primary">Send</button>
+                    </div>
+                    
                 </form>
             </div>
         </section>
         <footer>
         <p>
-                        <i class="far fa-copyright"></i> <?php echo date('Y');?> - Simple Bus Ticket Booking System | Made with &#10084;&#65039; by Ashwin Anil
+                        <i class="far fa-copyright"></i> <?php echo date('Y');?> - Bus Ticket Booking System | Made by <span class="text-primary">MD SHAHREAR AHMED SHAJIB</span> 
                         </p>
         </footer>
     </div>
