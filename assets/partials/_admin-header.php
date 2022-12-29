@@ -30,11 +30,11 @@
     </header> -->
     <main id="container">
         <div id="sidebar">
-            <h4><i class="fas fa-bus"></i> SBTBS</h4>
+            <h4><i class="fas fa-bus"></i> Hi-BUS</h4>
             <div>
                 <img class="adminDp" src="../assets/img/userav-min.png" height="125px" alt="Admin Profile Pic">
                 <p>
-                    <?php  echo '@'.$user_name;  ?>
+                    <?php  echo $user_fullname;  ?>
                 </p>
                 <p>System Administrator</p>
             </div>

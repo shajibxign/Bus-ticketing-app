@@ -180,7 +180,7 @@
                     </div>
 
                 </div>
-                <h4>Other Admin</h4>
+                <h4>Other Admins</h4>
                 <div id="admin">
                     <?php 
                         // Loop through Admin Data and show the admins in boxes other than the existing admin which is $user_id  == $_SESSION["user_id"]
@@ -203,7 +203,7 @@
             </section>
                 <footer>
                     <p>
-                        <i class="far fa-copyright"></i> <?php echo date('Y');?> - Simple Bus Ticket Booking System | Made with &#10084;&#65039; by Ashwin Anil
+                        <i class="far fa-copyright"></i> <?php echo date('Y');?> - Bus Ticket Booking System | Made by <span class="text-primary">MD SHAHREAR AHMED SHAJIB</span> 
                         </p>
                 </footer>
         </div>
