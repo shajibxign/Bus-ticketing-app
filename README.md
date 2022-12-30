@@ -3,7 +3,7 @@ A Bus Ticket Reservation website for university project
 
 **Login Details**
 
-Username: admin
+Username: admin <br>
 Password: Password@123
 
 Used techs:
