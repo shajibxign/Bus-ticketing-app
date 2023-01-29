@@ -1,6 +1,6 @@
 # Bus-ticketing-app
 A Bus Ticket Reservation website by Shajib
-aaaaaaa
+
 **Login Details**
 
 **Username**: admin <br>
