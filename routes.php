@@ -1,7 +1,7 @@
 <?php
     require 'assets/partials/_functions.php';
     $conn = db_connect();    
-0
+
     if(!$conn) 
         die("Connection Failed");
 
