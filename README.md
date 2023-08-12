@@ -7,5 +7,3 @@ A Bus Ticket Reservation website by Shajib
 **Password**: Password@123
 
 Used Techs: PHP, JAVASCRIPT, SQL, HTML, CSS.
-
-aa
